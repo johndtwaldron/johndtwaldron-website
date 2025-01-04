@@ -1,0 +1,53 @@
+/* General Page Styling */
+body {
+    background-color: black; /* Black background */
+    color: white; /* White font color */
+    margin: 0; /* Remove default margins */
+    font-family: Arial, sans-serif; /* Use a clean font */
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display links inline */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+    text-align: left
+}
+
+/* sub list */
+.sub-list {
+
+    margin-left: 40px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+    border-top: none; /* Remove footer border */
+}

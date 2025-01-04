@@ -1,0 +1,21 @@
+{
+  "name": "johndtwaldron-website",
+  "version": "1.0.0",
+  "description": "A personal website for John D. Waldron.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'"
+  },
+  "keywords": [
+    "website",
+    "personal",
+    "portfolio"
+  ],
+  "author": "John D. Waldron",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
