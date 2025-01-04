@@ -7,7 +7,7 @@ This is a personal website for John D. Waldron, showcasing his portfolio and pro
 ```
 johndtwaldron-website
 ├── src
-│   ├── index.html        # Main HTML document for the website
+│   ├── 
 │   ├── styles
 │   │   └── style.css     # CSS styles for the website
 │   └── scripts
@@ -16,6 +16,7 @@ johndtwaldron-website
 │   └── images            # Directory for image assets
 ├── package.json          # npm configuration file
 └── README.md             # Project documentation
+--- index.html        # Main HTML document for the website
 ```
 
 ## Getting Started
