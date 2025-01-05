@@ -3,7 +3,7 @@ body {
     background-color: black; /* Black background */
     color: white; /* White font color */
     margin: 0; /* Remove default margins */
-    font-family: Arial, sans-serif; /* Use a clean font */
+    font-family: "Helvetica", "Arial", sans-serif; /* like Fred K .org */
 }
 
 /* background image meant to be black with purple and gold lightning */
@@ -59,4 +59,27 @@ footer {
     padding: 20px 0;
     font-size: 0.9em;
     border-top: none; /* Remove footer border */
+}
+
+.collapsible {
+    background-color: transparent; /* Remove background color */
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+}
+
+.active, .collapsible:hover {
+    background-color: transparent; /* Remove hover background color */
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: transparent; /* Remove background color */
 }
