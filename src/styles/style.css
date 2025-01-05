@@ -6,6 +6,15 @@ body {
     font-family: Arial, sans-serif; /* Use a clean font */
 }
 
+/* background image meant to be black with purple and gold lightning */
+.background-image {
+    background-image: url('../../assets/images/purple lighnting background.webp');
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Make the background image fixed */
+    background-position: center; /* Center the background image */
+}
+
 /* Header Styling */
 header {
     text-align: center;
